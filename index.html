@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dima Surovtsev</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Обо мне -->
+      <div class="short-info">
+        <img
+          src="/Dima Blog/ds-photo.jpg"
+          alt="здесь должно быть фото"
+          class="avatar"
+        />
+
+        <div class="short-info_description">
+          <h2>Дмитрий Суровцев</h2>
+          <div class="short-info_text">
+            <p>24 года</p>
+            <p>Имею высшее образование в области экономической безопасности.</p>
+            <p>
+              Последние 2 года являюсь сотрудником IT-кластера Ростелекома.
+              <br />
+              С марта 2022 работаю на проекте Единого личного кабинета, где
+              занимаюсь тестированием ПО.
+            </p>
+          </div>
+
+          <h4>Мои социальные сети</h4>
+          <a href="https://instagram.com/dmitrysurovtcev" target="_blank"
+            >My instagram profile</a
+          >
+          |
+          <a href="https://t.me/vsegdanasvyazy" target="_blank"
+            >Сontact via telegram</a
+          >
+        </div>
+      </div>
+
+      <!-- Мои хобби -->
+      <div class="card card-color_someblue">
+        <h3>Мои хобби</h3>
+        <ol class="card_hobbies">
+          <li>Баскетбол</li>
+          <li>Sneaker-культура</li>
+          <li>Путешествия</li>
+        </ol>
+      </div>
+
+      <!-- Опыт работы -->
+      <div class="card card-color_somegreen">
+        <h3>Опыт работы</h3>
+        <table class="card-table">
+          <tr>
+            <td>Ростелеком ИТ</td>
+            <td>Специалист по тестированию ПО</td>
+            <td>03.2022 - н.в</td>
+          </tr>
+          <tr>
+            <td>Ростелеком ИТ</td>
+            <td>Специалист тенической поддержки</td>
+            <td>10.2020 - 03.2022</td>
+          </tr>
+          <tr>
+            <td>ИБС</td>
+            <td>Trainee ABAP/4</td>
+            <td>04.2020 - 06.2020</td>
+          </tr>
+        </table>
+      </div>
+
+      <!--Обратная связь -->
+      <div class="feedback">
+        <h3>Связаться со мной</h3>
+
+        <form action="">
+          <div class="feedback-row">
+            <div class="feedback-form">
+              <label for="feedback-form_name">Ваше имя:</label>
+              <input
+                type="text"
+                id="feedback-form_name"
+                placeholder="Введите имя..."
+              />
+            </div>
+
+            <div class="feedback-form">
+              <label for="feedback-form_email">Ваш email:</label>
+              <input
+                type="text"
+                id="feedback-form_email"
+                placeholder="Введите email..."
+              />
+            </div>
+          </div>
+
+          <div class="feedback-form">
+            <label for="feedback-form_message">Обратная связь</label>
+            <textarea
+              name=""
+              id="feedback-form_message"
+              cols="15"
+              rows="5"
+            ></textarea>
+          </div>
+          <input class="feedback-btn" type="submit" />
+        </form>
+      </div>
+
+      <!-- <div class="position">
+        <div class="box"></div>
+      </div> -->
+
+      <div style="margin-bottom: 200px"></div>
+    </div>
+  </body>
+</html>
